@@ -27,6 +27,7 @@ Labo
 Projet
 [] Définir le mode de numérotation des ID Recherche : libre, aléatoire, séquentiel (via IA)
     [x] si IA: définir le template de compteur
+    [] Intégrer le CGI
 [] Définir les règles d'affichage des n derniers compteurs
 [] Charger un tableau de clés en masse
 
