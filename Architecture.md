@@ -1,5 +1,6 @@
-Architecture
+## Architecture
 
+```
 sous une racine sphinxIDV1
 
     /globaldata/.instances
@@ -28,6 +29,6 @@ sous une racine sphinxIDV1
                             ---     -----
                             data    BCD
                         s01
-                        
+```                        
                         
                         
