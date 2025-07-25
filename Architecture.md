@@ -1,5 +1,7 @@
 Architecture
 
+C, R, U, ]D[ + List
+
 sous une racine sphinxIDV1
 
     /globaldata/.instances
@@ -11,7 +13,7 @@ sous une racine sphinxIDV1
    /05qsjq305/labs [DPO: L] [Admin: L]
         KV V1
         /l1
-            lab-info
+            ./lab-info
                 === Data ===
                 Key    Value
                 ---    -----
