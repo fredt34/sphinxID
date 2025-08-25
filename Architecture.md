@@ -1,5 +1,7 @@
 Architecture
 
+C, R, U, ]D[ + List
+
 sous une racine sphinxIDV1
 
     /globaldata/.instances
