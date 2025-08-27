@@ -1,11 +1,13 @@
 # Next
 
 - [X] Créer le DPO par Instance
-- [X] Gérer le DPO par Instance
+- [/] Gérer le DPO par Instance
 - [ ] Gérer les Admins par Instance
 - [ ] Gérer les Chercheurs par Labo - "Resp Projet"?
 - [ ] Définir les autres users: utilisateurs
 - [ ] Définir le mécanisme de Bris de glace (Instance)
+- [ ] Chercheur: multi labos
+- [ ] DPO: multi-instances (si même authentification: password, SSO)
 
 - [X] Tables : [https://gridjs.io/]
 
@@ -38,7 +40,7 @@ Projet
 Code
 - [ ] Tester / empêcher / gérer une 2e insertion d'une clé (doublons)
 
-sphinxIDV3
+Environnement : sphinxIDVx
 - maj config.js
 
 Initialisation de VaultID
