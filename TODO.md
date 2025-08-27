@@ -37,3 +37,14 @@ Projet
 
 Code
 - [ ] Tester / empêcher / gérer une 2e insertion d'une clé (doublons)
+
+sphinxIDV3
+- maj config.js
+
+Initialisation de VaultID
+nano ./sphinxid.config
+
+root@vault:~# 
+./connect.sh
+./initialize.sh
+
