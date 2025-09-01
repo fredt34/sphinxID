@@ -50,3 +50,7 @@ root@vault:~#
 ./connect.sh
 ./initialize.sh
 
+NEXT
+- Mock ? devrait être vrai
+- BIND : User ?? non - test avec user
+- mécanisme de repli ne semble pas fonctionner
