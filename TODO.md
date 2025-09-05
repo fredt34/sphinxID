@@ -50,7 +50,34 @@ root@vault:~#
 ./connect.sh
 ./initialize.sh
 
-NEXT
-- Mock ? devrait être vrai
-- BIND : User ?? non - test avec user
-- mécanisme de repli ne semble pas fonctionner
+## NEXT
+[X] Mock ? devrait être vrai
+[X] BIND : User ?? non - test avec user
+[X] mécanisme de repli ne semble pas fonctionner
+
+## Next 2
+
+[ ] Analyze security of the mechanism of relying on information gathered from identity_policies, gotton on login, to dertermine user's rights: can a rogue user forge identity_policies and gain unauthorized access?
+
+## Next 3
+
+### Big changes:
+[ ] Keep the html in 1 single index.html with extending current hide/show mechanisms
+    OR move and split it in some-module-function.html.include files (or other file names /extensions if a standard exists for this stuff); 
+    -- What's best ?
+[ ] Change all the vanilla html to use only web-awesome (wa) web components
+[ ] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): check if the mechanism for Researchers can be expanded to dpo and admin, and then apply. This would unify the login process.
+
+### Medium changes:
+[ ] Add Status and Logo (image file) files for Instances
+[ ] Add Presentation page (prez) for Instances (markdown)
+[ ] When logged as SuperAdmin: Allow editing Name, Status and Logo of Instance
+[ ] Display Instance's logo and prez text (as html) when instance is selected from the Selector
+[ ] Get Labs (Instance childs) from rorData.relationships as saved in Instance - don't query ROR, we have the info.
+[ ] Add a button to refresh the ROR childs
+
+### Small changes:
+[ ] Trim user names when created or input
+When logged as Admin : 
+[ ] Display the Lab Name and the code in () : "Institut des Sciences Sociales du Politique (03jdg7625)"
+[ ] Allow Edit button for Labs to change Name, Desc, Dept, Status

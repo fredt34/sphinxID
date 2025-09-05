@@ -44,6 +44,8 @@ Pour chaque instance, son administrateur définit
     - Et pour chaque Laboratoire:
       - 1+ chercheur(s)
 
+Les labos de tests sont L1 et L2.
+
 ### Projets
 
 Pour chaque laboratoire, les chercheurs peuvent définir 1+ Projet(s).
@@ -72,6 +74,8 @@ Les utilisateurs de tests définis sont:
   - ens-l2-r2
   - ens-l2-r3
 
+ens-l1-r1, ens-l1-r2 et ens-l1-r3 sont les chercheurs de test pour Labo1. Idem pour L2.
+
 ## Status
 
 SphinxID est en cours de développement et est au stade Maquettage.
@@ -91,3 +95,7 @@ Le code de SphinxID sera hébergé sur Github.
 Chaque organisme de recherche pourra télécharger et exploiter une ou plusieurs instances, seul ou conjointement avec d'autres organismes.
 
 L'application sera disponible en FR en EN (langues officielles), et est conçue pour supporter toute autre langue.
+
+# Contraintes
+
+Respect
