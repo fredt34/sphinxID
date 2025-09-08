@@ -57,7 +57,7 @@ root@vault:~#
 
 ## Next 2
 
-[ ] Analyze security of the mechanism of relying on information gathered from identity_policies, gotton on login, to dertermine user's rights: can a rogue user forge identity_policies and gain unauthorized access?
+[ ] Analyze security of the mechanism of relying on information gathered from identity_policies, gotton on login, to determine user's rights for a Researcher: can a rogue user forge identity_policies and gain unauthorized access?
 
 ## Next 3
 

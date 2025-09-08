@@ -2,7 +2,7 @@ Architecture
 
 C, R, U, ]D[ + List
 
-sous une racine sphinxIDV1
+sous une racine sphinxIDVXX
 
     /globaldata/.instances
         KV V2 - visible par anonymous
