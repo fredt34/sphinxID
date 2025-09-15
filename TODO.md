@@ -57,16 +57,17 @@ root@vault:~#
 
 ## Next 2
 
-[ ] Analyze security of the mechanism of relying on information gathered from identity_policies, gotton on login, to determine user's rights for a Researcher: can a rogue user forge identity_policies and gain unauthorized access?
+[X] Analyze security of the mechanism of relying on information gathered from identity_policies, gotton on login, to determine user's rights for a Researcher: can a rogue user forge identity_policies and gain unauthorized access?
+--> No, it's ok enough atm
 
 ## Next 3
 
 ### Big changes:
-[ ] Keep the html in 1 single index.html with extending current hide/show mechanisms
-    OR move and split it in some-module-function.html.include files (or other file names /extensions if a standard exists for this stuff); 
-    -- What's best ?
-[ ] Change all the vanilla html to use only web-awesome (wa) web components
-[ ] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): check if the mechanism for Researchers can be expanded to dpo and admin, and then apply. This would unify the login process.
+[X] Keep the html in 1 single index.html with extending current hide/show mechanisms
+    OR ~move and split it in some-module-function.html.include files (or other file names /extensions if a standard exists for this stuff); 
+    -- What's best ?~--> 1 single html file
+[/] Change all the vanilla html to use only web-awesome (wa) web components
+[X] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): check if the mechanism for Researchers can be expanded to dpo and admin, and then apply. This would unify the login process.
 
 ### Medium changes:
 [ ] Add Status and Logo (image file) files for Instances

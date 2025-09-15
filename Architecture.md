@@ -10,26 +10,28 @@ sous une racine sphinxIDVXX
         Code normalisé, codes admin principal
         05qsjq305    map[adminEmail:a adminLogin:admin code:05qsjq305 longName:Centre Hospitalier Universitaire de Nice website:http://www.chu-nice.fr/]
 
-   /05qsjq305/labs [DPO: L] [Admin: L]
+   /05qsjq305
         KV V1
-        /l1
-            ./lab-info
-                === Data ===
-                Key    Value
-                ---    -----
-                lab    lab1
-            /projects [researcher: L] [DPO: L]
-                p06_1/
-                    project-info [researcher: CRU]
-                    /secrets [researcher: L] [DPO: L]
-                        Keys
-                        ----
-                        S2 [researcher: CRU]
-                            ==== Data ====
-                            Key     Value
-                            ---     -----
-                            data    BCD
-                        s01 [researcher: CRU]
+        .instance-info [Admin: CRU] [All: R - TODO]
+        /labs [DPO: R] [Admin: R]
+            /l1
+                ./lab-info
+                    === Data ===
+                    Key    Value
+                    ---    -----
+                    lab    lab1
+                /projects [researcher: R] [DPO: R]
+                    p06_1/
+                        project-info [researcher: CRU]
+                        /secrets [researcher: R] [DPO: R]
+                            Keys
+                            ----
+                            S2 [researcher: CRU]
+                                ==== Data ====
+                                Key     Value
+                                ---     -----
+                                data    BCD
+                            s01 [researcher: CRU]
                         
                         
                         
