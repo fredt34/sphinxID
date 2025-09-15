@@ -4,7 +4,7 @@
 - [/] Gérer le DPO par Instance
 - [ ] Gérer les Admins par Instance
 - [ ] Gérer les Chercheurs par Labo - "Resp Projet"?
-- [ ] Définir les autres users: utilisateurs
+- [ ] Définir les autres users: utilisateurs, assistants...
 - [ ] Définir le mécanisme de Bris de glace (Instance)
 - [ ] Chercheur: multi labos
 - [ ] DPO: multi-instances (si même authentification: password, SSO)
