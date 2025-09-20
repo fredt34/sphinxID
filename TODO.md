@@ -61,24 +61,27 @@ root@vault:~#
 --> No, it's ok enough atm
 
 ## Next 3
+[X] Split code and login for SuperAdmin 😎
 
 ### Big changes:
 [X] Keep the html in 1 single index.html with extending current hide/show mechanisms
     OR ~move and split it in some-module-function.html.include files (or other file names /extensions if a standard exists for this stuff); 
     -- What's best ?~--> 1 single html file
 [/] Change all the vanilla html to use only web-awesome (wa) web components
-[X] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): check if the mechanism for Researchers can be expanded to dpo and admin, and then apply. This would unify the login process.
+[X] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): expand the mechanism for Researchers to dpo and admin; this unifies the login process.
 
 ### Medium changes:
-[ ] Add Status and Logo (image file) files for Instances
-[ ] Add Presentation page (prez) for Instances (markdown)
-[ ] When logged as SuperAdmin: Allow editing Name, Status and Logo of Instance
-[ ] Display Instance's logo and prez text (as html) when instance is selected from the Selector
-[ ] Get Labs (Instance childs) from rorData.relationships as saved in Instance - don't query ROR, we have the info.
+[X] Add Status and Logo (image file) files for Instances [Admin]
+[X]Add Presentation page (prez) for Instances (markdown) [Admin]
+[X] Allow editing Name, Status of Instance [SuperAdmin]
+[X] Display Instance's logo and prez text (as html) when instance is selected from the Selector
+[X] Get Labs (Instance childs) from rorData.relationships as saved in Instance - don't query ROR, we have the info.
 [ ] Add a button to refresh the ROR childs
 
 ### Small changes:
-[ ] Trim user names when created or input
+[X] Trim user names when created or input
 When logged as Admin : 
-[ ] Display the Lab Name and the code in () : "Institut des Sciences Sociales du Politique (03jdg7625)"
-[ ] Allow Edit button for Labs to change Name, Desc, Dept, Status
+[X] Display the Lab Name and the code in () : "Institut des Sciences Sociales du Politique (03jdg7625)"
+[X] Allow Edit button for Labs to change Name, Desc, Dept, Status
+
+### Issues
