@@ -84,8 +84,8 @@ Instance
   - [x] Allow Edit button for Labs to change Name, Desc, Dept, Status
 
 ### Issues
-[X] ROR not refreshed
-[X] When loading the app as superadmin, the orgs already defined as instances are removed from the result of the ROR search. Same on adding an instance
+- [X] ROR not refreshed
+- [X] When loading the app as superadmin, the orgs already defined as instances are removed from the result of the ROR search. Same on adding an instance
 
 ## Next 4
 [ ] Manage multiple Labs per researcher --> selector to define
