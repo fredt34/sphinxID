@@ -3,6 +3,10 @@
 - [X] Créer le DPO par Instance
 - [/] Gérer le DPO par Instance
 - [ ] Gérer les Admins par Instance
+    - [X] Multiples admins
+    - [X] Admins uniques
+    - [X] Ajout, renommage, suppression
+    - [X] Admin peut être défini pour plusieurs instances
 - [ ] Gérer les Chercheurs par Labo - "Resp Projet"?
 - [ ] Définir les autres users: utilisateurs, assistants...
 - [ ] Définir le mécanisme de Bris de glace (Instance)
