@@ -1,6 +1,6 @@
 # Documentation de SphinxID
 
-Certains projets de recherche imposent l'utilisation d'identifiants anonymes pour les personnes sujet de recherche - en particulier dans les domaines de la santé ou des sciences humaines et sociales (SHS). Il est parfois nécessaire de lever l'anonymat: les projets doivent donc conserver les données d'association entre l'identité des personnes et les codes anonymes.
+Certains projets de recherche imposent l'utilisation d'identifiants anonymes pour les personnes sujet de recherche - en particulier dans les domaines de la santé ou des sciences humaines et sociales.
 
 En l'absence de solution technique, les chercheurs sont généralement les détenteurs des fichiers d'association 
 : de simples fichiers Excel. Ces fichiers sont partagés (ou pas) et backupés (ou pas). Cette "solution" n'est pas satisfaisante du point de vue du RGPD.
@@ -13,7 +13,7 @@ SphinxID répond à ce besoin en:
     - Vault gère strictement et nativement les contrôles et les journaux d'accès;
     - SphinxID n'est qu'une interface de paramétrage et de consultation de Vault.
 
-Pour chaque projet, les chercheurs habilités peuvent saisir des informations [clé, secret], où le 'secret' est une donnée identifiante du participant (nom, prénom, etc.) associée à la 'clé' qui est l'identifiant de recherche.
+Pour chaque projet, les chercheurs habilités peuvent saisir des informations [clé, secret], où le 'secret' est une donnée identifiante du participant (nom, prénom, etc.) associée à la 'clé' (ID anonyme de recherche).
 
 ### Exemple
 
@@ -105,3 +105,9 @@ Chaque organisme de recherche pourra télécharger et exploiter une ou plusieurs
 L'application sera disponible en FR en EN (langues officielles), et est conçue pour supporter toute autre langue.
 
 ## Contraintes
+
+## Licence
+
+SphinxID is released under the GNU AGPL-3.0 License (see [LICENSE](LICENSE)).
+
+Additional licensing restrictions (commercial use, French version) are available in [LICENCE-ADDITIONAL.md](LICENCE-ADDITIONAL.md).
