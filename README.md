@@ -2,11 +2,12 @@
 
 Certains projets de recherche imposent l'utilisation d'identifiants anonymes pour les personnes sujet de recherche - en particulier dans les domaines de la santé ou des sciences humaines et sociales (SHS). Il est parfois nécessaire de lever l'anonymat: les projets doivent donc conserver les données d'association entre l'identité des personnes et les codes anonymes.
 
-En l'absence de solution, les chercheurs sont généralement les détenteurs des fichiers d'association - ce qui n'est pas satisfaisant, en particulier du point de vue du RGPD
+En l'absence de solution technique, les chercheurs sont généralement les détenteurs des fichiers d'association 
+: de simples fichiers Excel. Ces fichiers sont partagés (ou pas) et backupés (ou pas). Cette "solution" n'est pas satisfaisante du point de vue du RGPD.
 
 SphinxID répond à ce besoin en:
-  - confiant les fichiers d'association au Délégué à la protection des données (DPD/DPO);
-  - permettant aux chercheurs de déclarer les associations entre les personnes et les codes de recherche, tout en interdisant la consultation de ces associations;
+  - permettant aux chercheurs de déclarer les associations entre les personnes et les codes de recherche, tout en leur interdisant la consultation de ces associations;
+  - réservant la consultation des fichiers d'association au Délégué à la protection des données (DPD/DPO);
   - limitant le rôle du DPO à la levée unitaire d'anonymat;
   - sécurisant les secrets et en traçant toutes les opérations de manière inviolable, grâce à Hashicorp Vault:
     - Vault gère strictement et nativement les contrôles et les journaux d'accès;
@@ -16,9 +17,9 @@ Pour chaque projet, les chercheurs habilités peuvent saisir des informations [c
 
 ### Exemple
 
-➡️ Un chercheur travaillant sur un projet de recherche en santé saisit des informations d'association [nom du participant, ID anonyme de recherche] dans SphinxID.
-➡️ Cette association est chiffrée et stockée dans Vault
-➡️ Seul le DPO, garant de la protection des données, peut y accéder si nécessaire - aucun chercheur ne peut jamais accéder aux associations [ID de recherche - identité du participant].
+- ➡️ Un chercheur travaillant sur un projet de recherche en santé saisit des informations d'association [nom du participant, ID anonyme de recherche] dans SphinxID.
+- ➡️ Cette association est chiffrée et stockée dans Vault
+- ➡️ Seul le DPO, garant de la protection des données, peut y accéder si nécessaire - aucun chercheur ne peut jamais accéder aux associations [ID de recherche - identité du participant].
 
 ## Organisation
 
@@ -29,28 +30,33 @@ Chaque Ecole, Université... est définie en tant qu'Instance.
 Le SuperAdministrateur crée l'instance à partir du ROR, annuaire international d'identifiants pour les organimes de recherche.
 
 Chaque instance comporte:
-  - 1 administrateur
+  - 1 administrateur (ou plus)
   - 1 DPO
-(La solution complète permettra de définir plusieurs administrateurs et des DPO Adjoints.)
+(La solution complète permettra de définir des DPO Adjoints.)
 
-Une instance s'appuie sur 1 système d'authentification - à ce jour les développements portent sur LDAP.
+Chaque instance s'appuie sur 1 système d'authentification: LDAP, SAML ou OIDC (les deux derniers sont en attente).
 
-L'instance de tests est "ENS".
+On peut définir une IA à utiliser pour chaque instance afin de définir simplement des compteurs.
+
+Par exemple: ENS Paris-Saclay. 
 
 ### Laboratoires
 
 Pour chaque instance, son administrateur définit 
-  - 1+ Laboratoires
+  - 1+ Laboratoire
     - Et pour chaque Laboratoire:
       - 1+ chercheur(s)
 
-Les labos de tests sont L1 et L2.
+Par exemple: labos de tests L1 et L2.
 
 ### Projets
 
 Pour chaque laboratoire, les chercheurs peuvent définir 1+ Projet(s).
-  - un projet peut définir des exemples de séquence de compteur
-  - un projet peut définir le mode de définition des secrets
+
+Un projet peut définir:
+  - des exemples de séquence de compteur (via l'IA de l'instance)
+  - le mode de définition des secrets
+  - l'affichage des _n_ derniers secrets
 
 ### Secrets
 
@@ -84,6 +90,8 @@ SphinxID est en cours de développement et est au stade Maquettage.
 
 Sphinx est une application web uniquement (PWA en Vanilla javascript, utilisant les Web Components Web Awesome [ex Shoelace]), appelant l'API de Hashicorp Vault.
 
+Sphinx est développé à 99% par IA (Claude, Grok free).
+
 Des scripts Shell permettent de configurer l'instance Vault.
 
 ## Autres informations
@@ -96,6 +104,4 @@ Chaque organisme de recherche pourra télécharger et exploiter une ou plusieurs
 
 L'application sera disponible en FR en EN (langues officielles), et est conçue pour supporter toute autre langue.
 
-# Contraintes
-
-Respect
+## Contraintes
