@@ -36,6 +36,18 @@ Chaque instance comporte:
 
 Chaque instance s'appuie sur 1 système d'authentification: LDAP, SAML ou OIDC (les deux derniers sont en attente).
 
+### Authentification LDAP
+
+SphinxID supporte deux modes d'authentification LDAP:
+
+- **Bind authentifié**: Utilise un compte de service avec DN et mot de passe pour se connecter au serveur LDAP
+- **Bind anonyme**: Se connecte au serveur LDAP sans credentials (si supporté par le serveur)
+
+L'interface détecte automatiquement le mode utilisé et affiche des informations en temps réel:
+- Indication du mode de bind (anonyme ou authentifié)
+- Test de compatibilité du serveur LDAP avec le bind anonyme
+- Validation de la configuration avant sauvegarde
+
 On peut définir une IA à utiliser pour chaque instance afin de définir simplement des compteurs.
 
 Par exemple: ENS Paris-Saclay. 

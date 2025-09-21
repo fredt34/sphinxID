@@ -91,6 +91,11 @@ Instance
 - [X] ROR not refreshed
 - [X] When loading the app as superadmin, the orgs already defined as instances are removed from the result of the ROR search. Same on adding an instance
 
+## SPLIT
+- [X] split with Grok : Big FAIL
+- [X] split with Claude: much better, but some issues in progress
+    [X] 💣 on Auth selector, events are called twice. FIXED
+
 ## Next 4
 [ ] Manage multiple Labs per researcher --> selector to define
 [ ] Project : rules 
