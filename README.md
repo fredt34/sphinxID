@@ -110,4 +110,4 @@ L'application sera disponible en FR en EN (langues officielles), et est conçue 
 
 SphinxID is released under the GNU AGPL-3.0 License (see [LICENSE](LICENSE)).
 
-Additional licensing restrictions (commercial use, French version) are available in [LICENCE-ADDITIONAL.md](LICENCE-ADDITIONAL.md).
+Additional licensing restrictions (NO commercial use, French version) are available in [LICENCE-ADDITIONAL.md](LICENCE-ADDITIONAL.md).
