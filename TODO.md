@@ -69,15 +69,15 @@
 - [X] If trusting  identity_policies gotten on logon has no security issues (decided in step Next 2): check if the mechanism for Researchers can be expanded to dpo and admin, and then apply. This wo[...]  
 
 ### Medium changes:
-- [ ] Add Status and Logo (image file) files for Instances
-- [ ] Add Presentation page (prez) for Instances (markdown)
-- [ ] When logged as SuperAdmin: Allow editing Name, Status and Logo of Instance
-- [ ] Display Instance's logo and prez text (as html) when instance is selected from the Selector
-- [ ] Get Labs (Instance childs) from rorData.relationships as saved in Instance - don't query ROR, we have the info.
+- [x] Add Status and Logo (image file) files for Instances [admin]
+- [x] Add Presentation page (prez) for Instances (markdown) [admin]
+- [x] When logged as SuperAdmin: Allow editing Name, Status of Instance
+- [x] Display Instance's logo and prez text (as html) when instance is selected from the Selector
+- [x] Get Labs (Instance childs) from rorData.relationships as saved in Instance - don't query ROR, we have the info.
 - [ ] Add a button to refresh the ROR childs
 
 ### Small changes:
-- [ ] Trim user names when created or input
+- [x] Trim user names when created or input
 - When logged as Admin : 
-  - [ ] Display the Lab Name and the code in () : "Institut des Sciences Sociales du Politique (03jdg7625)"
-  - [ ] Allow Edit button for Labs to change Name, Desc, Dept, Status
+  - [x] Display the Lab Name and the code in () : "Institut des Sciences Sociales du Politique (03jdg7625)"
+  - [x] Allow Edit button for Labs to change Name, Desc, Dept, Status
