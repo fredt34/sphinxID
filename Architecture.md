@@ -4,6 +4,7 @@ C, R, U, ]D[ + List
 
 sous une racine sphinxIDVXX
 
+```
     /globaldata/.instances
         KV V2 - visible par anonymous
         Liste des instances
@@ -32,6 +33,6 @@ sous une racine sphinxIDVXX
                                 ---     -----
                                 data    BCD
                             s01 [researcher: CRU]
-                        
+```
                         
                         
