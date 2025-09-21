@@ -10,6 +10,8 @@ SphinxID is designed to securely manage anonymous identifiers for research parti
 - Only the Data Protection Officer (DPO) can access associations, and only for individual unmasking.
 - All secrets and operations are securely stored and logged in Vault.
 - SphinxID acts as a configuration and query interface for Vault.
+- **Access rights are strictly defined by Vault policies and are tamper-proof.**
+- **All actions are logged and cannot be altered, ensuring full traceability and auditability.**
 
 ## Main Concepts
 
