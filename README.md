@@ -102,13 +102,13 @@ SphinxID est en cours de développement et est au stade Maquettage.
 
 Sphinx est une application web uniquement (PWA en Vanilla javascript, utilisant les Web Components Web Awesome [ex Shoelace]), appelant l'API de Hashicorp Vault.
 
-Sphinx est développé à 99% par IA (Claude, Grok free).
+Sphinx est développé à 99% par IA (Claude, Grok free, OpenAI).
 
-Des scripts Shell permettent de configurer l'instance Vault.
+Des scripts Shell permettent de configurer l'instance Vault et les droits de SuperAdmin.
 
 ## Autres informations
 
-SphinxID sera un logiciel Libre, licence en cours de sélection.
+SphinxID sera un logiciel Libre, licence GNU AFFERO GENERAL PUBLIC.
 
 Le code de SphinxID sera hébergé sur Github.
 
