@@ -109,3 +109,22 @@ Instance
 
 ## Next BIG
 [ ] Other Auth methods: OIDC, SAML
+
+- [X] Change translation to i18n
+- [X] Use interpolation to populate fields instead of using html
+
+FIX : espace sur bouton + Researcher
+FIX : 
+Q:  onclick="event.stopPropagation(); 
+
+Next: compacter les colonnes pour Chercheur (cf Instances)
+
+Next: compacter les créations d'instances et de lab
+
+Virer tous les styles en dur de wa ajoutés par Cline
+
+Améliorer les styles
+
+Bonus:
+- définir des styles par instance
+- appeler une ia pour générer une css depuis la home page :D
