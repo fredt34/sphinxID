@@ -119,7 +119,7 @@ Q:  onclick="event.stopPropagation();
 
 Next: compacter les colonnes pour Chercheur (cf Instances)
 
-Next: compacter les créations d'instances et de lab
+Next: compacter les créations d'instances et de lab -> simple bouton + et appel du dialog d'Editin
 
 Virer tous les styles en dur de wa ajoutés par Cline
 
