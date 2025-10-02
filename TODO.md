@@ -125,6 +125,8 @@ Virer tous les styles en dur de wa ajoutés par Cline
 
 Améliorer les styles
 
+Ajouter logo + texte / home page
+
 Bonus:
 - définir des styles par instance
 - appeler une ia pour générer une css depuis la home page :D
